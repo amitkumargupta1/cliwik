@@ -8,7 +8,7 @@ header('Location: index.php');
 }
 ?>
 <?php
-$z=$_SESSION['y'];
+$z=$_SESSION['y'];//felling happy using github
 include('config.php'); //$session id
 $user_query=mysql_query("select * from user_data where email='$z'");
 $user_fetch=mysql_fetch_array($user_query);
